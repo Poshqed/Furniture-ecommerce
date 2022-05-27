@@ -158,6 +158,17 @@ section .image-div {
 
 }
 
+section .image-div img {
+    border-radius: 15px;
+    box-shadow: 1px 1px 5px gray;
+
+}
+
+#features {
+    background: rgba(228, 227, 227, 0.544);
+    padding: 40px 0;
+}
+
 section .catalogue {
     display: flex;
     flex-direction: row;
@@ -175,14 +186,57 @@ section .catalogue p span {
     font-weight: bolder;
     font-family: 'Tiro Kannada', serif;
     font-size: 18px;
-
-
 }
 
+section .about {
+    padding: 10px 90px;
+    margin: -2% 0 0 5%;
+}
 
+section .about h1 {
+    font-family: 'Tiro Kannada', serif;
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 25px;
+}
 
+section .about p {
+    font-size: 20px;
+}
 
+section .profile {
+    display: flex;
+    flex-direction: row;
+    padding: 10px 50px;
+}
 
+section .profile img {
+    width: 300px;
+    height: 300px;
+    border-radius: 15px;
+    margin-right: 20px;
+}
+
+section .profile div {
+    padding: 10px;
+}
+
+section .profile div h1 {
+    font-family: 'Tiro Kannada', serif;
+    padding-bottom: 10px;
+}
+
+section .profile div p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+
+section .profile div a {
+    color: #000;
+    font-size: 35px;
+    padding-right: 20px;
+}
 
 
 /* Before breakpoint */
@@ -235,6 +289,13 @@ section .catalogue p span {
     section .showcase button.button-a {
         margin-left: 15%;
     }
-}
 
-/* 255 150 0 */
+    section .profile {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+}
