@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Tiro+Kannada&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+body {
+    background: rgb(12, 205, 163);
+    background: radial-gradient(circle, rgba(12, 205, 163, 1) 0%, rgba(193, 252, 211, 1) 64%);
+    background-repeat: no-repeat;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    height: 4rem;
+    align-items: center;
+    justify-content: center;
+}
+
+nav h1 {
+    font-family: 'Tiro Kannada', serif;
+    cursor: pointer;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    margin-left: 15%;
+}
+
+
+
+nav ul li a {
+    color: #000;
+    font-size: 18px;
+    padding: 20px 15px;
+    transition: all .2s ease;
+}
+
+nav ul li a:hover {
+    border-bottom: 2px solid #000;
+    color: red;
+}
+
+.nav2 {
+    width: 100%;
+    height: 100%;
+    transition: all .2s ease-in-out;
+}
+
+.nav2 h1 {
+    padding: 10px;
+}
+
+.nav2 h1 i.cancel-btn {
+    float: right;
+    font-size: 35px;
+    cursor: pointer;
+}
+
+.nav2 ul {
+    text-align: center;
+    background: #fff;
+    display: none;
+}
+
+.nav2 ul li {
+    padding: 10px;
+    border-bottom: 1px solid #000;
+}
+
+.nav2 ul li a {
+    color: #000;
+}
+
+.nav2 ul li a:hover {
+    color: #ff0000;
+}
+
+
+/* Before breakpoint */
+@media (max-width: 1363px) {
+    nav h1 {
+        font-size: 20px;
+    }
+
+    nav ul li a {
+        font-size: 15px;
+        padding: 20px 10px;
+
+    }
+
+    nav ul {
+        margin-left: 10%;
+    }
+}
+
+@media (max-width: 831px) {
+    nav {
+        display: none;
+    }
+
+    .nav2 {
+        display: block !important;
+    }
+
+}
+
+/* 255 150 0 */
