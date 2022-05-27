@@ -207,7 +207,8 @@ section .about p {
 section .profile {
     display: flex;
     flex-direction: row;
-    padding: 10px 50px;
+    padding: 40px 50px;
+    margin-top: -40px;
 }
 
 section .profile img {
@@ -238,6 +239,89 @@ section .profile div a {
     padding-right: 20px;
 }
 
+footer {
+    background: rgba(77, 77, 77, 0.455);
+
+}
+
+div.footer {
+    padding: 20px;
+    color: #fff;
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+div.footer .main-footer {
+    padding: 20px;
+}
+
+div.footer .main-footer h1 {
+    font-family: 'Tiro Kannada', serif;
+    font-size: 30px;
+    padding: 20px;
+    margin-left: 10%;
+}
+
+div.footer .sub-footer ul {
+    list-style: none;
+    padding: 0 50px;
+}
+
+div.footer .sub-footer ul li {
+    padding-bottom: 10px;
+}
+
+div.footer .sub-footer ul li a {
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    font-variant: small-caps;
+}
+
+div.footer .sub-footer ul li a:hover {
+    color: #000;
+}
+
+div.footer .sub-footer input {
+    width: 20rem;
+    height: 2.5rem;
+    padding-left: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    border: 0;
+}
+
+div.footer .sub-footer button {
+    margin: 10px 0 0 5px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 0;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+hr {
+    color: #fff;
+    z-index: 1;
+}
+
+.footer-bottom {
+    padding: 20px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-bottom a {
+    color: #fff;
+    font-size: 25px;
+    padding: 10px;
+}
+
+
+
 
 /* Before breakpoint */
 @media (max-width: 1363px) {
@@ -263,6 +347,21 @@ section .profile div a {
     section .image-div img {
         width: 400px;
         height: 400px;
+    }
+
+    section .showcase button.button-a {
+        margin-left: 15%;
+    }
+
+    section .profile {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    div.footer {
+        display: none;
     }
 }
 
@@ -297,5 +396,8 @@ section .profile div a {
         align-items: center;
     }
 
+    div.footer {
+        display: none;
+    }
 
 }
