@@ -161,6 +161,8 @@ section .image-div {
 section .image-div img {
     border-radius: 15px;
     box-shadow: 1px 1px 5px gray;
+    width: 700px;
+    height: 500px;
 
 }
 
