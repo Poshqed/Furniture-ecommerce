@@ -10,8 +10,8 @@
 }
 
 body {
-    background: rgb(12, 205, 163);
-    background: radial-gradient(circle, rgba(12, 205, 163, 1) 0%, rgba(193, 252, 211, 1) 64%);
+    background: #0ccda3;
+    background: radial-gradient(circle, #0ccda3 0%, rgba(193, 252, 211, 1) 64%);
     background-repeat: no-repeat;
 }
 
@@ -71,7 +71,7 @@ nav ul li a:hover {
 
 .nav2 ul {
     text-align: center;
-    background: #fff;
+    background: rgba(255, 255, 255, 0.385);
     display: none;
 }
 

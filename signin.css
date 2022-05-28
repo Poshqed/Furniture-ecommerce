@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Tiro+Kannada&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background: rgba(130, 130, 130, 0.222);
+}
+
+div.image {
+    margin-top: 8%;
+}
+
+div.image img {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+form {
+    border: 0;
+    padding: 20px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    height: 500px;
+    margin-top: 7.7%;
+    width: 400px;
+    z-index: 1;
+    background: #0ccda3;
+    background: radial-gradient(circle, #0ccda3 0%, rgba(193, 252, 211, 1) 64%);
+}
+
+form h1 {
+    text-align: center;
+    font-family: 'Tiro Kannada', serif;
+    margin: 0 0 20px 0;
+}
+
+form label {
+    padding: 10px 0 10px 0;
+}
+
+form input {
+    width: 100%;
+    height: 35px;
+    padding: 10px;
+    margin: 10px 0 30px 0;
+    border: 0;
+}
+
+
+hr {
+    margin-bottom: 20px;
+}
+
+form button {
+    padding: 10px 15px;
+    border: 0;
+    border-radius: 5px;
+    background-color: #000;
+    color: #fff;
+    margin-left: 35%;
+    font-size: 16px;
+}
+
+form p {
+    margin: 20px 0 0 30%;
+}
+
+form p .click {
+    cursor: pointer;
+    font-size: 25px;
+    padding-right: 20px;
+}
