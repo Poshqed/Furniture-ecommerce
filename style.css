@@ -324,12 +324,6 @@ hr {
 }
 
 
-
-
-
-
-
-
 /* Before breakpoint */
 @media (max-width: 1363px) {
     nav h1 {
@@ -393,7 +387,7 @@ hr {
     }
 
     section .showcase button.button-a {
-        margin-left: 15%;
+        margin-left: 28%;
     }
 
     section .profile {
@@ -401,10 +395,47 @@ hr {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        margin-top: 5px;
+    }
+
+    section .profile div {
+        margin: 10px 0 0 50px;
     }
 
     div.footer {
         display: none;
     }
 
+}
+
+/* ipad display */
+@media (max-width: 770px) {
+    section .showcase button.button-a {
+        margin-left: 25%;
+    }
+}
+
+/* Phone display */
+@media (max-width: 417px) {
+    section .showcase button.button-a {
+        font-size: 12px;
+        margin-left: 17%;
+    }
+
+    section .showcase button.button-b {
+        font-size: 12px;
+    }
+
+    section .profile div a {
+        font-size: 20px;
+    }
+
+    section .profile img {
+        width: 150px;
+        height: 150px;
+    }
+
+    section .image-div img {
+        display: none;
+    }
 }

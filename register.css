@@ -6,7 +6,6 @@
     margin: 0;
     padding: 0;
     font-family: 'Open Sans', sans-serif;
-
 }
 
 
@@ -37,7 +36,6 @@ section h1 {
 
 form {
     width: 600px;
-    /* background-color: rgba(128, 128, 128, 0.415); */
     padding: 20px;
     border-radius: 20px;
 }
@@ -72,10 +70,19 @@ section form button {
     cursor: pointer;
     font-size: 20px;
     font-family: 'Tiro Kannada', sans-serif;
-    /* box-shadow: 0 0 10px #0ccda3; */
 }
 
 section form button:hover {
-    background-color: #0ccda3;
     box-shadow: 0 0 10px #0ccda3;
+}
+
+@media (max-width: 601px) {
+    form {
+        max-width: 400px;
+        padding: 30px;
+    }
+
+    section form input {
+        width: 100%;
+    }
 }
