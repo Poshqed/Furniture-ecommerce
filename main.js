@@ -22,10 +22,10 @@ function removeUl() {
 
 (function () {
     var i = 0;
-    var imageArray = ['slider 1.jpeg', 'slider 2.jpeg', 'slider 3.jpeg', 'slider 4.avif', 'slider 5.jpeg', 'slider 6.jpeg'];
+    var imageArray = ['slider 1.jpeg', 'slider 2.jpeg', 'slider 3.jpeg', 'slider 4.avif', 'slider 5.jpeg', 'slider 6.jpeg', 'showcase img.jpeg'];
     function changeImage() {
         slider.src = imageArray[i];
         i = (i + 1) % imageArray.length;
     }
-    setInterval(changeImage, 3000);
+    setInterval(changeImage, 2000);
 })();      

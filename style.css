@@ -29,6 +29,7 @@ nav {
 nav h1 {
     font-family: 'Tiro Kannada', serif;
     cursor: pointer;
+    font-size: 35px;
 }
 
 nav ul {
@@ -163,7 +164,7 @@ section .image-div img {
     box-shadow: 1px 1px 5px gray;
     width: 700px;
     height: 500px;
-
+    transition: all ease-in-out;
 }
 
 #features {
