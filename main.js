@@ -7,18 +7,17 @@ slider = document.querySelector('.js-image-slider');
 collapseBtn.addEventListener('click', addUl)
 cancelBtn.addEventListener('click', removeUl);
 
-
 function addUl() {
     collapseBtn.style.display = 'none';
     cancelBtn.style.display = 'block'
     ul.style.display = 'block';
 }
+
 function removeUl() {
     ul.style.display = 'none';
     cancelBtn.style.display = 'none';
     collapseBtn.style.display = 'block'
 }
-
 
 (function () {
     var i = 0;
@@ -27,5 +26,5 @@ function removeUl() {
         slider.src = imageArray[i];
         i = (i + 1) % imageArray.length;
     }
-    setInterval(changeImage, 2000);
+    setInterval(changeImage, 2000)
 })();      

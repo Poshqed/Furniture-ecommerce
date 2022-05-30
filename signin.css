@@ -5,7 +5,6 @@
     margin: 0;
     padding: 0;
     font-family: 'Open Sans', sans-serif;
-
 }
 
 body {
@@ -90,8 +89,6 @@ form p .click:hover {
 }
 
 @media (max-width: 831px) {
-
-
     div.image {
         display: none;
     }
